@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GeoLib.Services
 {
-    public class GeoManager:IGeoService     
+    public class GeoManager : IGeoService
     {
 
         public GeoManager()
@@ -55,9 +55,9 @@ namespace GeoLib.Services
         public IEnumerable<string> GetStates(bool primaryStates)
         {
             List<string> stateData = new List<string>();
-            IStateRepository stateRepository = _StateRepository?? new StateRepository();
-            IEnumerable<State> states = stateRepository.Get(primaryOnly:true);
-            if (states!=null)
+            IStateRepository stateRepository = _StateRepository ?? new StateRepository();
+            IEnumerable<State> states = stateRepository.Get(primaryOnly: true);
+            if (states != null)
             {
                 foreach (State state in states)
                 {
@@ -72,18 +72,18 @@ namespace GeoLib.Services
             List<ZipCodeData> zipCodeData = new List<ZipCodeData>();
             IZipCodeRepository zipCodeRepository = _ZipCodeRepository ?? new ZipCodeRepository();
             var zips = zipCodeRepository.GetByState(state);
-            if (zips!=null)
+            if (zips != null)
             {
                 foreach (ZipCode zipCode in zips)
                 {
-                    zipCodeData.Add(new ZipCodeData() 
+                    zipCodeData.Add(new ZipCodeData()
                     {
-                        City=zipCode.City,
+                        City = zipCode.City,
                         State = zipCode.State.Abbreviation,
-                        ZipCode=zipCode.Zip
+                        ZipCode = zipCode.Zip
                     });
                 }
-               
+
             }
 
             return zipCodeData;
@@ -92,18 +92,18 @@ namespace GeoLib.Services
         public IEnumerable<ZipCodeData> GetZips(string zip, int range)
         {
             List<ZipCodeData> zipCodeData = new List<ZipCodeData>();
-            IZipCodeRepository zipCodeRepository = new ZipCodeRepository();
+            IZipCodeRepository zipCodeRepository = _ZipCodeRepository ??new ZipCodeRepository();
             ZipCode zipEntity = zipCodeRepository.GetByZip(zip);
             var zips = zipCodeRepository.GetZipsForRange(zipEntity, range);
-            if (zips!=null)
+            if (zips != null)
             {
                 foreach (ZipCode zipCode in zips)
                 {
-                    zipCodeData.Add(new ZipCodeData() 
+                    zipCodeData.Add(new ZipCodeData()
                     {
-                        City= zipCode.City,
+                        City = zipCode.City,
                         State = zipCode.State.Abbreviation,
-                        ZipCode=zipCode.Zip
+                        ZipCode = zipCode.Zip
                     });
                 }
             }
