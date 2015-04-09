@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{17D645
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Test", "GeoLib.Test\GeoLib.Test.csproj", "{0B102D9C-9D02-4D00-924B-796049DDA9FD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{710F6B61-253E-4BF0-AB7F-F0800D7936A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.ConsoleHost", "GeoLib.ConsoleHost\GeoLib.ConsoleHost.csproj", "{6342F006-686F-4C44-8741-26A521BB03E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,8 +50,15 @@ Global
 		{0B102D9C-9D02-4D00-924B-796049DDA9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B102D9C-9D02-4D00-924B-796049DDA9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B102D9C-9D02-4D00-924B-796049DDA9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6342F006-686F-4C44-8741-26A521BB03E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6342F006-686F-4C44-8741-26A521BB03E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6342F006-686F-4C44-8741-26A521BB03E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6342F006-686F-4C44-8741-26A521BB03E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6342F006-686F-4C44-8741-26A521BB03E3} = {710F6B61-253E-4BF0-AB7F-F0800D7936A4}
 	EndGlobalSection
 EndGlobal
