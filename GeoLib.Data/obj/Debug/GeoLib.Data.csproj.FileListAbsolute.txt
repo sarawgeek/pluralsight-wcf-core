@@ -1,0 +1,12 @@
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.csprojResolveAssemblyReference.cache
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Data.dll.config
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Data.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Data.pdb
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Core.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Core.pdb
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.xml
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.pdb

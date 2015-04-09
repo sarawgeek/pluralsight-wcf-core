@@ -1,0 +1,10 @@
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\GeoLib.Contracts.dll.config
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\GeoLib.Contracts.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\GeoLib.Contracts.pdb
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\obj\Debug\GeoLib.Contracts.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\obj\Debug\GeoLib.Contracts.pdb
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\EntityFramework.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\EntityFramework.SqlServer.dll
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\EntityFramework.xml
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\EntityFramework.SqlServer.xml
+D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Contracts\obj\Debug\GeoLib.Contracts.csprojResolveAssemblyReference.cache
