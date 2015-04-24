@@ -20,9 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{17D645
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Test", "GeoLib.Test\GeoLib.Test.csproj", "{0B102D9C-9D02-4D00-924B-796049DDA9FD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{710F6B61-253E-4BF0-AB7F-F0800D7936A4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.ConsoleHost", "GeoLib.ConsoleHost\GeoLib.ConsoleHost.csproj", "{6342F006-686F-4C44-8741-26A521BB03E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.WindowsHost", "GeoLib.WindowsHost\GeoLib.WindowsHost.csproj", "{73991B60-7163-491F-B419-8411DE70653B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Proxies", "GeoLib.Proxies\GeoLib.Proxies.csproj", "{A333C615-6DDA-4525-8248-81C68E81501A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Client", "GeoLib.Client\GeoLib.Client.csproj", "{326A4CC2-13C1-476A-9728-8C7977D23337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,11 +58,20 @@ Global
 		{6342F006-686F-4C44-8741-26A521BB03E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6342F006-686F-4C44-8741-26A521BB03E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6342F006-686F-4C44-8741-26A521BB03E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73991B60-7163-491F-B419-8411DE70653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73991B60-7163-491F-B419-8411DE70653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73991B60-7163-491F-B419-8411DE70653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73991B60-7163-491F-B419-8411DE70653B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A333C615-6DDA-4525-8248-81C68E81501A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A333C615-6DDA-4525-8248-81C68E81501A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A333C615-6DDA-4525-8248-81C68E81501A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A333C615-6DDA-4525-8248-81C68E81501A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326A4CC2-13C1-476A-9728-8C7977D23337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326A4CC2-13C1-476A-9728-8C7977D23337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326A4CC2-13C1-476A-9728-8C7977D23337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326A4CC2-13C1-476A-9728-8C7977D23337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6342F006-686F-4C44-8741-26A521BB03E3} = {710F6B61-253E-4BF0-AB7F-F0800D7936A4}
 	EndGlobalSection
 EndGlobal
