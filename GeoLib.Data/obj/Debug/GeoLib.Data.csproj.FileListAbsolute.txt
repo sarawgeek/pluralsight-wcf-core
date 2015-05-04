@@ -10,3 +10,15 @@ D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.xml
 D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.dll
 D:\API\GIT_Repo\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.pdb
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Data.dll.config
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Data.dll
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Data.pdb
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.dll
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Core.dll
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\GeoLib.Core.pdb
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.xml
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.csprojResolveAssemblyReference.cache
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.dll
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Data\obj\Debug\GeoLib.Data.pdb
