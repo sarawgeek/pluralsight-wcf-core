@@ -25,9 +25,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Proxies", "GeoLib.Proxies\GeoLib.Proxies.csproj", "{A333C615-6DDA-4525-8248-81C68E81501A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoLib.Client", "GeoLib.Client\GeoLib.Client.csproj", "{326A4CC2-13C1-476A-9728-8C7977D23337}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6342F006-686F-4C44-8741-26A521BB03E3} = {6342F006-686F-4C44-8741-26A521BB03E3}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

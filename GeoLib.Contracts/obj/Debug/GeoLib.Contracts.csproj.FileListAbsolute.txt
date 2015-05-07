@@ -17,3 +17,4 @@ C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\Entit
 C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Contracts\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Contracts\obj\Debug\GeoLib.Contracts.dll
 C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Contracts\obj\Debug\GeoLib.Contracts.pdb
+C:\Users\qv72\Source\Repos\pluralsight-wcf-core\GeoLib.Contracts\obj\Debug\GeoLib.Contracts.csprojResolveAssemblyReference.cache

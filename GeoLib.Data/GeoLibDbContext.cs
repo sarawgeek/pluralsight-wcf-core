@@ -14,7 +14,7 @@ namespace GeoLib.Data
         public GeoLibDbContext()
             : base("name=main")
         {
-            Database.SetInitializer<GeoLibDbContext>(null);C:\Users\qv72\Source\Repos\pluralsight-wcf-core
+            Database.SetInitializer<GeoLibDbContext>(null);
         }
 
         public DbSet<ZipCode> ZipCodeSet { get; set; }

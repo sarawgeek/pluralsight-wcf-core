@@ -4,7 +4,9 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button Name="btn_Start" Content="Start Service" HorizontalAlignment="Left" Margin="161,42,0,0" VerticalAlignment="Top" Width="209" Height="45" Click="btn_Start_Click" />
-        <Button Name="btn_Stop" Content="Stop Service" HorizontalAlignment="Left" Margin="161,126,0,0" VerticalAlignment="Top" Width="209" Height="48" Click="btn_Stop_Click"/> 
+        <Button Name="btn_Stop" Content="Stop Service" HorizontalAlignment="Left" Margin="161,126,0,0" VerticalAlignment="Top" Width="209" Height="48" Click="btn_Stop_Click"/>
+        <Label Content="" x:Name="lblMessage" HorizontalAlignment="Left" Margin="86,243,0,0" VerticalAlignment="Top" Width="378" Height="59"/>
+        <Button Content="In process Button" Name="btnInProcess" HorizontalAlignment="Left" Margin="60,192,0,0" VerticalAlignment="Top" Width="102" Height="36" Click="btnInProcess_Click"/>
 
     </Grid>
 </Window>
