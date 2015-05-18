@@ -33,6 +33,7 @@
         <Label Content="Text to Show : " HorizontalAlignment="Left" Margin="104,259,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" x:Name="txtToShow" Height="34" Margin="149,302,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="190" TextChanged="TextBox_TextChanged"/>
         <Button Content="Make Call" x:Name="btnMakeCall" HorizontalAlignment="Left" Margin="244,353,0,0" VerticalAlignment="Top" Width="95" Height="28" Click="btnMakeCall_Click"/>
+        <Button Content="One way Call" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="114,239,0,0" Click="Button_Click"/>
 
     </Grid>
 </Window>

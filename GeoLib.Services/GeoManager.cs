@@ -3,11 +3,14 @@ using GeoLib.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace GeoLib.Services
 {
+    [ServiceBehavior(IncludeExceptionDetailInFaults=true)]
     public class GeoManager : IGeoService
     {
 
@@ -38,16 +41,24 @@ namespace GeoLib.Services
         {
             ZipCodeData zipCodeData = null;
             IZipCodeRepository zipCodeRepository = _ZipCodeRepository ?? new ZipCodeRepository();
-            ZipCode zipCodeEntity = zipCodeRepository.GetByZip(zip);
-            if (zipCodeEntity != null)
+            //ZipCode zipCodeEntity = zipCodeRepository.GetByZip(zip);
+            if (zipCodeRepository.GetByZip(zip).Equals(zipCodeData))
             {
-                zipCodeData = new ZipCodeData
-                {
-                    City = zipCodeEntity.City,
-                    State = zipCodeEntity.State.Abbreviation,
-                    ZipCode = zipCodeEntity.Zip
-                };
+                return zipCodeData;
             }
+            else
+            {
+                throw new ApplicationException(string.Format("{0}", "Data Fetching Failed"));
+            }
+            //if (zipCodeEntity != null)
+            //{
+            //    zipCodeData = new ZipCodeData
+            //    {
+            //        City = zipCodeEntity.City,
+            //        State = zipCodeEntity.State.Abbreviation,
+            //        ZipCode = zipCodeEntity.Zip
+            //    };
+            //}
 
             return zipCodeData;
         }
@@ -108,6 +119,11 @@ namespace GeoLib.Services
                 }
             }
             return zipCodeData;
+        }
+
+        public void OneWayExample()
+        {
+            MessageBox.Show("Call is Made to the service");
         }
     }
 }

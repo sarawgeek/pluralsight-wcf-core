@@ -38,14 +38,25 @@ namespace GeoLib.Client
             if (txtZipCode.Text!="")
             {
                 GeoClient proxy = new GeoClient();
-                proxy.Open();
-                ZipCodeData data = proxy.GetZipInfo(txtZipCode.Text);
-                if (data!=null)
+                try
                 {
-                    lblCity.Content = data.City;
-                    lblState.Content = data.State;
+                    proxy.Open();
+                    ZipCodeData data = proxy.GetZipInfo(txtZipCode.Text);
+                    if (data != null)
+                    {
+                        lblCity.Content = data.City;
+                        lblState.Content = data.State;
+                    }
+                    proxy.Close();
                 }
-                proxy.Close();
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Exception thrown by Service\n\r Exception Type: " + ex.GetType().Name
+                        + "\r\nException Details : " + ex.Message + "\n\r"
+                        + "Proxy State : " + proxy.State.ToString());
+                }
+                
+                
             }
 
         }
@@ -68,6 +79,21 @@ namespace GeoLib.Client
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            GeoClient proxy = new GeoClient();
+
+            proxy.OneWayExample();
+
+            MessageBox.Show("We Are at client side");
+
+            proxy.Close();
+
+            MessageBox.Show("Proxy is Closed");
+
 
         }
     }

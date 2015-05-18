@@ -29,5 +29,10 @@ namespace GeoLib.Proxies
         {
             return Channel.GetZips(zip, range);
         }
+
+        public void OneWayExample()
+        {
+            Channel.OneWayExample();
+        }
     }
 }
